@@ -27,7 +27,7 @@ public class TestOCR {
         //File imageFile = new File("/home/vinic/Documents/development/java/ocr/tessdata/eurotext .tif");
     	
     	//Arquivos Exemplo
-    	String filePath = "/home/vinic/Documents/development/java/ocr/images/4- Contrato Social/PROCURACAO- MACIEL COMUNICACAO E SERVICOS LTDA (1).pdf";
+    	String filePath = "/home/vinic/Documents/development/java/ocr/images/4- Contrato Social/myfile.pdf";
     	
     	PDDocument document = PDDocument.load(new File(filePath));
 		PDFRenderer pdfRenderer = new PDFRenderer(document);    	
