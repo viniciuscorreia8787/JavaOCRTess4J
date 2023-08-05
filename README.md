@@ -1,1 +1,0 @@
-# JavaOCRTess4J
